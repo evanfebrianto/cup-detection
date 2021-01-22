@@ -40,4 +40,4 @@ pip install pycocotools tf_slim lvis tqdm
 1. Open `pipeline.ipynb`
 2. Run `Set configurations` section
 3. Run `Load the trained model` section
-4. Go to `Run on realtime webcam` section and change `cap = cv2.VideoCapture(cv2.CAP_DSHOW + 1)` according to your camera device ID. If you are using an internal webcam, you can set to `cap = cv2.VideoCapture(cv2.CAP_DSHOW + 1)`. Otherwise, you do not need to change.
+4. Go to `Run on realtime webcam` section and change `cap = cv2.VideoCapture(cv2.CAP_DSHOW + 1)` according to your camera device ID. If you are using an internal webcam, you can set to `cap = cv2.VideoCapture(cv2.CAP_DSHOW + 0)`. Otherwise, you do not need to change.
