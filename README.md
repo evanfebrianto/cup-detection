@@ -35,3 +35,9 @@ pip install pycocotools tf_slim lvis tqdm
 2. Annotate your image using [labelImg] in PASCAL VOC format
 3. Change `annotations\label_map.pbtxt` accordingly to match your labels
 4. Then follow the steps written in the `pipeline.ipynb`
+
+# How to Test Using Webcam
+1. Open `pipeline.ipynb`
+2. Run `Set configurations` section
+3. Run `Load the trained model` section
+4. Go to `Run on realtime webcam` section and change `cap = cv2.VideoCapture(cv2.CAP_DSHOW + 1)` according to your camera device ID. If you are using an internal webcam, you can set to `cap = cv2.VideoCapture(cv2.CAP_DSHOW + 1)`. Otherwise, you do not need to change.
