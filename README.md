@@ -14,7 +14,8 @@
 `conda create tf2 = python=3.8`
 2. Activate environment: `conda activate tf2`
 3. Download libraries:
-```pip install opencv-python pillow notebook tensorflow-gpu==2.3.*
+```
+pip install opencv-python pillow notebook tensorflow-gpu==2.3.*
 pip install pillow lxml jupyter matplotlib cython pandas contextlib2
 conda install -c conda-forge protobuf
 pip install pycocotools tf_slim lvis tqdm
